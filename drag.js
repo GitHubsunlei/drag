@@ -9,6 +9,7 @@ oDiv.onmousedown = function(ev){
 	disY = ev.pageY - oDiv.offsetTop;
 
 	document.onmousemove = function(ev){
+		console.log(222)
 		disX = ev.pageX - disX;
 		disY = ev.pageY - disY;
 		oDiv.style.left = disx + 'px';
